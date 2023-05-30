@@ -1,7 +1,40 @@
-.nav-color{
+.nav-color {
     background-color: #000814;
 }
 
-body{
+body {
     background-color: #000814;
+}
+
+.nav-links {
+
+    background: none;
+    
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    color: white;
+    margin-right: 30px;
+
+}
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+  
+}
+
+.nav-links:hover {
+ 
+    
+    color: #FFC300;
+}
+
+.whole-nav {
+    padding: 40px 140px;
+}
+
+.h1-line {
+    margin-right: 20px;
 }
