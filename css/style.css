@@ -39,6 +39,27 @@ body {
     margin-right: 20px;
 }
 
+.row1 {
+    position: relative;
+  }
+  
+  .col2 {
+    position: absolute;
+    margin-left: 20vw;
+    top: 1vh;
+    right: -50vw;
+    z-index: -1;
+   
+  }
+  
+
+.valImg {
+    width: auto;
+    height: 800px;
+    object-fit: cover;
+}
+   
+
 .intro {
     padding: 2rem 1rem 5rem 1rem;
     padding-bottom: 10rem;
