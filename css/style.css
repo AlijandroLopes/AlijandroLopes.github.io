@@ -38,3 +38,56 @@ body {
 .h1-line {
     margin-right: 20px;
 }
+
+.intro {
+    padding: 2rem 1rem 5rem 1rem;
+    padding-bottom: 10rem;
+    max-width: 1200px;
+    margin-left: 7vw;
+}
+
+.intro {
+    padding-bottom: 10rem;
+    color: #ffffff;
+}
+
+.intro p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.name2{
+    color: #003566;
+}
+.intro .name {
+    font-family: var(--mono);
+    font-size: 1rem;
+    color: white;
+}
+
+
+.name span {
+   
+    font-size: 4rem;
+
+    display: block;
+    font-weight: 300;
+}
+
+.intro h2 {
+    font-size: 4rem;
+    color: #ffffff;
+}
+
+.aboutSection2{
+  font-size: 2vw;
+  color: #003566;
+  
+}
+
+.pAbout{
+   
+}
+
+.section-about-me{
+    margin-top: 45vh;
+}
