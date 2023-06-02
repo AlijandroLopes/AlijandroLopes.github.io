@@ -6,6 +6,7 @@ body {
     background-color: #000814;
 }
 
+
 .nav-links {
 
    
@@ -66,12 +67,21 @@ body {
     color: #ffffff;
 }
 
+.software-text{
+    color: #FFC300 !important;
+}
+
 .intro p {
     font-size: 1rem;
     line-height: 1.5;
 }
+
+.name{
+    color: #FFC300 !important;
+}
+
 .name2{
-    color: #003566;
+    color: #0072dd;
 }
 .intro .name {
     font-family: var(--mono);
@@ -93,9 +103,10 @@ body {
     color: #ffffff;
 }
 
+
 .aboutSection2{
   font-size: 2vw;
-  color: #003566;
+  color: #FFC300;
   
 }
 
@@ -105,4 +116,18 @@ body {
 
 .section-about-me{
     margin-top: 45vh;
+}
+
+.form-contact{
+    margin-top: 10vh;
+    margin-left: 5vh;
+}
+
+.message-form{
+    width: 40vw;
+}
+
+.contact-title{
+    font-size: 2em;
+    color: #FFC300;
 }
