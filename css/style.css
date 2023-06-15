@@ -131,3 +131,27 @@ body {
     font-size: 2em;
     color: #FFC300;
 }
+
+
+
+.button-view-more{
+    background-color: #FFC300;
+    color: #003566;
+    width: 10vw;
+  
+}
+
+
+
+.button-view-more:hover{
+    background-color: #0072dd;
+    width: 11vw;
+    height: 4vh;
+}
+
+
+
+.display-button{
+    display: none;
+}
+
