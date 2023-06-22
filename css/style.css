@@ -8,13 +8,42 @@ body {
 
 }
 
+.title-cards{
+    color: #FFC300;
+}
+
 .container-projects{
     margin-left: -15vw;
 }
 
+.color-card{
+    color: #ffffff;
+}
+
+.container-carousel{
+    margin-left: 5vw;
+}
+
+.card-project-3{
+    margin-left: -14vw;
+}
+
+.example-img{
+    width: auto;
+    height: 30vh;
+}
+
+.color-white-text{
+    color: #ffffff !important;
+}
 .container-project-img{
-    margin-left: 60vw;
-    margin-top: -65vh;
+    margin-left: 45vw;
+    margin-top: -70vh;
+}
+
+.container-project-img-2{
+    margin-left: 45vw;
+    margin-top: -60vh;
 }
 
 .img-one-piece{
@@ -23,11 +52,14 @@ body {
 }
 
 .card-project{
-    border: 1px solid #FFC300;
+    border: 3px solid #ffffff;
     background-color: #003566;
-    color: #FFC300;
 }
 
+.img-project-modal{
+    width: auto;
+    height: 25vh;
+}
 
 .nav-links {
 
@@ -129,11 +161,14 @@ body {
 .aboutSection2{
   font-size: 2vw;
   color: #FFC300;
-  
+  margin-bottom: 8vh;
 }
 
-.pAbout{
-   
+.more-projects{
+    font-size: 2vw;
+    color: #FFC300;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 
 .section-about-me{
@@ -177,3 +212,10 @@ body {
     display: none;
 }
 
+.container-credits{
+    background-color: #003566;
+    height: 40vh;
+    width: 100vw;
+    margin-left: -20vw;
+    margin-top: -40vh;
+}
