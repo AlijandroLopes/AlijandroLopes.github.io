@@ -4,6 +4,28 @@
 
 body {
     background-color: #000814;
+        overflow-x: hidden;
+
+}
+
+.container-projects{
+    margin-left: -15vw;
+}
+
+.container-project-img{
+    margin-left: 60vw;
+    margin-top: -65vh;
+}
+
+.img-one-piece{
+    width: auto;
+    height: 60vh;
+}
+
+.card-project{
+    border: 1px solid #FFC300;
+    background-color: #003566;
+    color: #FFC300;
 }
 
 

@@ -1,11 +1,6 @@
-const buttonLearnMore = document.querySelector('.button-view-more');
+const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
 
-buttonLearnMore.addEventListener('click', function() {
-    
-    console.log('button learn more clicked');
-
-   
-
-});
-
-
+myModal.addEventListener('shown.bs.modal', () => {
+  myInput.focus()
+})
