@@ -1,11 +1,137 @@
-.nav-color {
-    background-color: #000814;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    background-color: #000814;
-        overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
 
+html {
+    scroll-behavior: smooth;
+}
+
+a, .btn{
+    transition: all 300ms ease;
+}
+
+.desktop-navbar{
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 10%;
+    padding-top: 3%;
+    padding-right: 10%;
+    color: #ffffff;
+}
+
+.logo{
+    font-size: 1.5rem;
+
+}
+
+.cv-foto{
+    width: auto;
+    height: 450px;
+    border-radius: 90%;
+    padding-left: 20%;
+}
+
+.profile-section{
+    margin-top: 17vh;
+    margin-left: 10vw;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.profile-text-1{
+    margin-bottom: 2vh;
+    color: rgb(83, 83, 83);
+}
+
+.profile-text p{
+    font-weight: 600;
+}
+
+.socials-container{
+  /* display: flex;
+  justify-content: center; */
+  margin-top: 1rem;
+  
+}
+
+.icon{
+    height: 2rem;
+    
+}
+
+.container-about{
+    margin-top: 35vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+}
+  
+.btn-container{
+    
+    
+}
+
+.btn{
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+
+
+.btncv:hover, .btncontact:hover{
+    cursor: pointer; 
+}
+
+.btncv, .btncontact:hover{
+    background: rgb(53, 53, 53);
+    color: white;
+}
+
+.btn-cv{
+    color: white;
+    background: rgb(0, 0, 0);
+    border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btn-contact{
+    background: none;
+    border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btn-contact:hover{
+    background: rgb(148, 39, 39) 0.1rem solid;
+    
+}
+
+
+.nav-links{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    text-decoration-color: white;
+}
+
+a:hover{
+    color: gray;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
 }
 
 .text-modal{
@@ -70,7 +196,7 @@ body {
     height: 25vh;
 }
 
-.nav-links {
+/* .nav-links {
 
    
     
@@ -80,17 +206,17 @@ body {
     color: white;
     margin-right: 30px;
 
-}
+} */
 
 
 
-.nav-links:hover {
+/* .nav-links:hover {
     color: #003566;
-}
+} */
 
-.whole-nav {
+/* .whole-nav {
     padding: 40px 140px;
-}
+} */
 
 .h1-line {
     margin-right: 20px;
