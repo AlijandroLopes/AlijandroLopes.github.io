@@ -67,8 +67,53 @@ a, .btn{
     
 }
 
+#About {
+    background: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40vh; 
+}
+
+.about-me{
+    margin-top: 50vh;
+ 
+
+}
+
+.container {
+    max-width: 800px; /* Limits the width of the content */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the content vertically */
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff; /* Optional: adds a white border around the image */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: adds shadow to the image */
+    margin-bottom: 20px;
+}
+
+.about-text h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.about-text p {
+    color: #666; /* Dark gray text */
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+
+
 .container-about{
-    margin-top: 35vh;
+    margin-top: 50vh;
     /* display: flex;
     justify-content: center;
     align-items: center; */
