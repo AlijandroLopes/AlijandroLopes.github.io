@@ -114,6 +114,69 @@ a, .btn{
 }
 
 
+#projects {
+    background-color: #f9f9f9;
+}
+
+#projects .card {
+    transition: transform 0.2s;
+    
+}
+
+#projects .card:hover {
+    transform: scale(1.05);
+}
+
+.card-title a, .card-text a, .btn {
+    text-decoration: none;
+}
+
+.card-title a:hover, .card-text a:hover, .btn:hover {
+    text-decoration: none;
+}
+
+.card-img-top {
+    height: 200px; /* Set your desired fixed height */
+    object-fit: cover;
+    width: 100%;
+}
+
+/* .typing-effect {
+    display: inline-block;
+    border-right: 2px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(14), blink 0.75s step-end infinite alternate;
+  }
+   */
+  .typing-effect {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .blinking-cursor {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 1.5em;
+    color: black;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+  }
+  
+  @keyframes blink {
+    from, to {
+      color: transparent;
+    }
+    50% {
+      color: black;
+    }
+  }
+  
+
 
 
 .container-about{
@@ -377,8 +440,8 @@ a:hover{
 }
 
 .intro {
-    padding-bottom: 10rem;
-    color: #ffffff;
+    padding-top: 10vh;
+    padding-left: -5vw;
 }
 
 /* .software-text{
