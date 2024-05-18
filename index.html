@@ -35,10 +35,10 @@
                 <a class="nav-link" href="#experience">Experience</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#Projects">Projects</a>
+                <a class="nav-link" href="#projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#Contact">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
             
@@ -64,8 +64,8 @@
             <p class="profile-text-3">Software Developer</p>
           </div>  
           <div class="btn-container">
-            <button class="btn btn-cv">Download CV</button>
-            <button class="btn btn-contact">Contact Me</button>
+            <a href="/docs/CV-AlijandroLopes.pdf" class="btn btn-cv" download>Download CV</a>
+            <a href="#contact"><button class="btn btn-contact">Contact Me</button></a>
           </div>
           <div class="socials-container">
             <img class="icon" src="/imgs/github.png" onclick="location.href='https://github.com/AlijandroLopes'" alt="Github Profile">
@@ -75,6 +75,7 @@
       </div>
     </div>
   </section>
+  
   
   
 
@@ -152,42 +153,59 @@
                     </div>
                     <span>70%</span>
                 </div>
+                <div class="skill">
+                  <h3>Bootstrap</h3>
+                  <div class="skill-level">
+                      <div class="skill-level-bar" style="width: 60%;"></div>
+                  </div>
+                  <span>60%</span>
+              </div>
+              <div class="skill">
+                <h3>Symfony</h3>
+                <div class="skill-level">
+                    <div class="skill-level-bar" style="width: 50%;"></div>
+                </div>
+                <span>50%</span>
+            </div>
             </div>
         </div>
     </div>
 </section>
 
-<section id="projects" class="py-5">
+<section id="projects" class="py-5 mt-5">
   <div class="container mt-5">
     <h2 class="mb-5 text-center">My Projects</h2>
     <div class="row">
       <!-- First row: 3 projects -->
       <div class="col-md-4 mb-4">
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 20rem;">
           <img src="/imgs/themaweek-project.png" class="card-img-top" alt="Project 1">
           <div class="card-body">
             <h5 class="card-title">Streaming website</h5>
-            <p class="card-text">Description of Project 1, highlighting key features and technologies used.</p>
+            <p class="card-text">A platform for streaming movies, TV shows, and live channels.</p>
+            <a href="#" class="btn btn-primary">View Project</a>
             <a href="#" class="btn btn-primary">View Project</a>
           </div>
         </div>
       </div>
       <div class="col-md-4 mb-4">
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 20rem;">
           <img src="imgs/higher-lower.png" class="card-img-top" alt="Project 2">
           <div class="card-body">
             <h5 class="card-title">Higher Lower</h5>
-            <p class="card-text">Description of Project 2, highlighting key features and technologies used.</p>
+            <p class="card-text">A game where players choose if the next item is higher or lower.</p>
+            <a href="#" class="btn btn-primary">View Project</a>
             <a href="#" class="btn btn-primary">View Project</a>
           </div>
         </div>
       </div>
       <div class="col-md-4 mb-4">
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 20rem;">
           <img src="imgs/tic-tac-toe-project.png" class="card-img-top" alt="Project 3">
           <div class="card-body">
             <h5 class="card-title">Tic Tac Toe</h5>
-            <p class="card-text">Description of Project 3, highlighting key features and technologies used.</p>
+            <p class="card-text">A classic Tic Tac Toe game against the computer.</p>
+            <a href="#" class="btn btn-primary">View Project</a>
             <a href="#" class="btn btn-primary">View Project</a>
           </div>
         </div>
@@ -196,21 +214,23 @@
     <div class="row justify-content-center mt-3">
       <!-- Second row: 2 centered projects -->
       <div class="col-md mb-4">
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 20rem;">
           <img src="imgs/Dashboard.png" class="card-img-top" alt="Project 4">
           <div class="card-body">
             <h5 class="card-title">Dashboard Weather API</h5>
-            <p class="card-text">Description of Project 4, highlighting key features and technologies used.</p>
+            <p class="card-text">A customizable dashboard displaying real-time data.</p>
+            <a href="#" class="btn btn-primary">View Project</a>
             <a href="#" class="btn btn-primary">View Project</a>
           </div>
         </div>
       </div>
       <div class="col-md mb-4">
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 20rem;">
           <img src="imgs/escape-room.png" class="card-img-top" alt="Project 5">
           <div class="card-body">
             <h5 class="card-title">Escape Room</h5>
-            <p class="card-text">Description of Project 5, highlighting key features and technologies used.</p>
+            <p class="card-text">An online escape room game with puzzles and interactive storytelling.</p>
+            <a href="#" class="btn btn-primary">View Project</a>
             <a href="#" class="btn btn-primary">View Project</a>
           </div>
         </div>
@@ -219,6 +239,32 @@
   </div>
 </section>
 
+
+
+<section id="contact" class="container-fluid">
+  <div class="container mt-5">
+    <h2 class="mb-5">Contact Me</h2>
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Name</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Subject</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+</section>
 
 
 

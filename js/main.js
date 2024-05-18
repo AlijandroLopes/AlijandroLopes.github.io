@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
         textElement.textContent = text.substring(0, charIndex++);
         if (charIndex === text.length) {
           isDeleting = true;
-          setTimeout(type, 1000); // Pause before deleting
+          setTimeout(type, 800); // Pause before deleting
           return;
         }
       }
