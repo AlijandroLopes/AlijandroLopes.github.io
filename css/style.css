@@ -154,6 +154,18 @@ a, .btn{
     
 }
 
+.carousel-inner {
+    width: 100%;
+    height: auto; /* Set your desired fixed height */
+  }
+  
+  .carousel-inner img {
+    object-fit: cover;
+    width: auto;
+    height: 150px;
+  }
+  
+
 #projects .card:hover {
     transform: scale(1.05);
 }
