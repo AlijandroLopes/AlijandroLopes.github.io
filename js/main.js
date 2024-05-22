@@ -26,3 +26,27 @@ document.addEventListener('DOMContentLoaded', function() {
     type();
   });
   
+
+//form handeling
+
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+  event.preventDefault();
+
+  const form = event.target;
+  const data = new FormData(form);
+  const xhr = new XMLHttpRequest();
+  
+  xhr.open(form.method, 'https://formspree.io/f/xkndaroe');
+  xhr.setRequestHeader('Accept', 'application/json');
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState !== XMLHttpRequest.DONE) return;
+    if (xhr.status === 200) {
+      form.reset();
+      document.getElementById('status').innerHTML = 'Thanks for your submission!';
+    } else {
+      document.getElementById('status').innerHTML = 'Oops! There was a problem.';
+    }
+  };
+  xhr.send(data);
+});
+
